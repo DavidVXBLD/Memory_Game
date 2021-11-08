@@ -53,7 +53,8 @@ function mainGame(cardNumber) {
                         revealedCard.push(cardNumber);
                         cardSwitch(cardNumber);
                 }
-                // This "if" is to determine if the 2 revealed cards make a pair. If they do, we change their state (-1) and add them to the variable twinFound
+                // This "if" is to determine if the 2 revealed cards make a pair.
+                // If they do, we change their state (-1) and add them to the variable twinFound
                 // If they don't, we change back their state to 0
                 if(revealedCard.length=== 2) {
                         let newState= 0;
@@ -77,13 +78,13 @@ function mainGame(cardNumber) {
         }
 }
 
-// ############################################################### START ###############################################################
-
 // This function reload the game when it's over so the user car play again
 function playAgain() {
         alert("Bravo !");
         location.reload();
 }
+
+// ############################################################### START ###############################################################
 
 // This loop is used to get the click event from the card to use it the main function
 for(let i=0; i<card.length; i++) {
