@@ -1,0 +1,8 @@
+réussite: jeu fonctionnel
+
+échecs: beaucoup trop de temps sur le projet, manque de spontanéité quant aux outils JS à utiliser, frustration et démotivation après beaucoup de temps perdu en échec
+
+supports utilisés: VSCode, stackoverflow, git et github
+
+axes d'amélioration: pratique du JS et du DOM pour plus de spontanéité, utilisation de powerpoint pour sublimer la présentation
+		     
