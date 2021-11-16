@@ -69,7 +69,7 @@ function mainGame(cardNumber) {
                                 cardSwitch(revealedCard[0]);
                                 cardSwitch(revealedCard[1]);
                                 revealedCard=[];
-                                // This "if" sned the user to the playAgain function, which reload the game, if all the pairs are found
+                                // This "if" send the user to the playAgain function, which reload the game if all the pairs are found
                                 if(twinsFound=== 6) {
                                         playAgain();
                                 }
@@ -81,12 +81,13 @@ function mainGame(cardNumber) {
 // This function reload the game when it's over so the user car play again
 function playAgain() {
         alert("Bravo !");
+        // location.reload() is a native function that is used to reload a page
         location.reload();
 }
 
 // ############################################################### START ###############################################################
 
-// This loop is used to get the click event from the card to use it the main function
+// This loop is used to get the click event from the cards to use it the main function
 for(let i=0; i<card.length; i++) {
         card[i].cardNumber=i;
         card[i].onclick=function() {
